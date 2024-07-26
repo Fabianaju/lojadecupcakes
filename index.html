@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Cupcakes Romântica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand">Cupcake Amor</div>
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button class="btn-comprar">Comprar</button>
+        </nav>
+    </header>
+    <section id="inicio" class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide fade">
+                <img src="cupcake1.png" alt="Cupcake 1">
+            </div>
+            <div class="carousel-slide fade">
+                <img src="cupcake2.png" alt="Cupcake 2">
+            </div>
+            <div class="carousel-slide fade">
+                <img src="cupcake3.png" alt="Cupcake 3">
+            </div>
+            <div class="carousel-slide fade">
+                <img src="cupcake4.png" alt="Cupcake 4">
+            </div>
+        </div>
+        <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="next" onclick="plusSlides(1)">&#10095;</button>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre-texto">
+                <h1>Sobre Nós</h1>
+                <p>Na <span class="highlight">Cupcake Amor</span>, acreditamos que cada cupcake deve ser uma experiência única e deliciosa. Desde nossos ingredientes selecionados com cuidado até a nossa dedicação em criar as combinações de sabores mais harmoniosas, nossa missão é espalhar amor e doçura em cada mordida.</p>
+                <p>Nossos cupcakes são feitos com <span class="highlight">amor</span> e <span class="highlight">paixão</span>, garantindo que cada detalhe, desde a massa até a cobertura, seja perfeito para o seu momento especial.</p>
+            </div>
+            <div class="sobre-imagens">
+                <img src="sobre1.png" alt="Nossa História">
+                <img src="sobre2.png" alt="Ingredientes Frescos">
+                <img src="sobre3.png" alt="Amor e Dedicação">
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section id="produtos" class="produtos">
+        <h1>Seleção de Cupcakes</h1>
+        <div class="container">
+            <div class="produto">
+                <img src="cake1.png" alt="Cupcake 1">
+                <h2>Red Velvet</h2>
+                <p>Delicioso cupcake Red Velvet com cobertura de cream cheese.</p>
+                <a href="cake1.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+            <div class="produto">
+                <img src="cake2.png" alt="Cupcake 2">
+                <h2>Chocolate</h2>
+                <p>Intenso cupcake de chocolate com recheio cremoso.</p>
+                <a href="cake2.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+            <div class="produto">
+                <img src="cake3.png" alt="Cupcake 3">
+                <h2>Baunilha</h2>
+                <p>Clássico cupcake de baunilha com cobertura de buttercream.</p>
+                <a href="cupcake3.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+            <div class="produto">
+                <img src="cake4.png" alt="Cupcake 4">
+                <h2>Coco</h2>
+                <p>Exótico cupcake de coco com recheio de creme de coco, coberto com glacê de coco.</p>
+                <a href="cupcake4.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+            <div class="produto">
+                <img src="cake5.png" alt="Cupcake 4">
+                <h2>Doce de Leite</h2>
+                <p>Irresistível cupcake de doce de leite com recheio de doce de leite cremoso.</p>
+                <a href="cupcake5.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+            <div class="produto">
+                <img src="cake6.png" alt="Cupcake 4">
+                <h2>Maracujá</h2>
+                <p>Vibrante cupcake de maracujá com recheio de creme de maracujá.</p>
+                <a href="cupcake6.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+            <div class="produto">
+                <img src="cake7.png" alt="Cupcake 4">
+                <h2>Amêndoas</h2>
+                <p>Sofisticado cupcake de amêndoas com recheio de creme de amêndoas.</p>
+                <a href="cupcake7.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+            <div class="produto">
+                <img src="cake8.png" alt="Cupcake 4">
+                <h2>Morango</h2>
+                <p>Delicado cupcake de morango com pedaços de frutas.</p>
+                <a href="cupcake8.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+            <div class="produto">
+                <img src="cake9.png" alt="Cupcake 4">
+                <h2>Framboesa</h2>
+                <p>Delicado cupcake de framboesa com recheio de compota de framboesa.</p>
+                <a href="cupcake9.html" class="btn-saiba-mais">Saiba Mais</a>
+            </div>
+            <!-- Adicione mais cupcakes conforme necessário -->
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="contato-texto">
+                <h1>Entre em Contato</h1>
+                <p>Adoramos ouvir de nossos clientes! Se você tem perguntas, comentários ou apenas deseja dizer "olá", por favor, entre em contato conosco. Estamos aqui para ajudar e tornar o seu dia mais doce.</p>
+                <p>Nosso e-mail: <a href="mailto:contato@cupcakeamor.com">contato@cupcakeamor.com</a></p>
+                <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+            </div>
+            <div class="contato-form">
+                <form action="enviar_formulario.php" method="post">
+                    <input type="text" name="nome" placeholder="Seu Nome" required>
+                    <input type="email" name="email" placeholder="Seu E-mail" required>
+                    <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+   
+     <footer class="footer">
+    <div class="container">
+        <div class="footer-info">
+            <h2>Cupcake Amor</h2>
+            <p>Espalhando amor e doçura em cada mordida</p>
+        </div>
+        <div class="footer-links">
+            <h3>Links Úteis</h3>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Siga-nos</h3>
+            <ul>
+                <li><a href="#"><img src="facebook.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="instagram.png" alt="Instagram"></a></li>
+                <li><a href="#"><img src="twitter.png" alt="Twitter"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Cupcake Amor. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+
